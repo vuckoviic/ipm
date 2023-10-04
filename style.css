@@ -47,71 +47,60 @@ table {
 	border-spacing: 0;
 }
 
+:root{
+    --yellow: #FFCC70;
+    --light-blue: #8ECDDD;
+    --dark-blue: #22668D;
+    --white: #FFFADD;
+}
+
 body{
     display: flex;
     flex-direction: column;
     width: 100vw;
     font-family: Mallanna;
-    background-color: rgb(255, 199, 126);
+    background-color: white;
+    height: 7000vh;
 }
 
 .header{
-    margin: 0;
     display: flex;
-    width: 100vw;
-    background-color: rgb(255, 223, 182);
+    background-color: var(--dark-blue);
     justify-content: flex-end;
+    position: sticky;
 }
 
-a:link{
-    text-decoration: none;
-}
-
-a{
-    color: rgb(185, 111, 0);
-}
-
-#logo{
-    height: 60px;
-    padding: 20px 15px;
+.header img,
+.header a {
     width: auto;
     margin-right: auto;
-    margin-left: 80px;
 }
 
-.links{
+.header img{
+    height: 70px;
+    padding: 15px 25px;
+}
+
+.links {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 12px;
-    margin-right: 80px;
+    padding-right: 25px;
 }
 
-.links a{
-    font-size: 2em;
+.links button{
+    padding: 5px 12px;
+    color: var(--white);
+    background-color: var(--dark-blue);
+    font-size: 1.7rem;
+    height: 100%;
+    border: 0;
+    transition: 0.5s;
 }
 
-.main-page{
-    margin-top: 80px;
-    display: flex;
-    background-color: rgb(255, 223, 182);
-}
-
-.main-page h1{
-    font-size: 6rem;
-    color: chocolate;
-}
-
-.main-page p{
-    color: rgb(255, 176, 58);
-    font-size: 4rem
-}
-
-.main-page img{
-    height: 650px;
-    width: auto;
-    padding: 80px;
-}
-
-#main-h1-p{
-    margin-top: 80px;
+.links button:hover{
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    cursor: pointer;
+    transition: 0.5s;
 }
