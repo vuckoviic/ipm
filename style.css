@@ -60,7 +60,6 @@ body{
     width: 100vw;
     font-family: Mallanna;
     background-color: white;
-    height: 7000vh;
 }
 
 .header{
@@ -68,6 +67,7 @@ body{
     background-color: var(--dark-blue);
     justify-content: flex-end;
     position: sticky;
+    top: 0;
 }
 
 .header img,
@@ -103,4 +103,26 @@ body{
     color: var(--dark-blue);
     cursor: pointer;
     transition: 0.5s;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/main-page-bg.jpg');
+    height: 80vh;
+    background-size: 100vw;
+    gap: 0;
+}
+
+.main-page h1 {
+    font-size: 18rem;
+    color: var(--dark-blue);
+}
+
+.main-page p {
+    font-style: italic;
+    font-size: 5rem;
+    color: rgb(196, 176, 0);
 }
