@@ -58,8 +58,9 @@ body{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    font-family: Mallanna;
-    background-color: white;
+    font-family: Raleway;
+    background-image: url('images/bg.png');
+    height: 1000vh;
 }
 
 .header{
@@ -99,8 +100,7 @@ body{
 }
 
 .links button:hover{
-    background-color: var(--light-blue);
-    color: var(--dark-blue);
+    color: var(--yellow);
     cursor: pointer;
     transition: 0.5s;
 }
@@ -110,19 +110,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('images/main-page-bg.jpg');
     height: 80vh;
     background-size: 100vw;
-    gap: 0;
+    gap: 35px;
+    background-attachment: fixed;
 }
 
 .main-page h1 {
-    font-size: 18rem;
+    font-size: 13rem;
     color: var(--dark-blue);
 }
 
 .main-page p {
     font-style: italic;
-    font-size: 5rem;
+    font-size: 4rem;
     color: rgb(196, 176, 0);
 }
