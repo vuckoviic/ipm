@@ -58,28 +58,27 @@ body{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    font-family: Raleway;
+    font-family: 'Source Code Pro';
     background-image: url('images/bg.png');
     height: 1000vh;
 }
 
 .header{
     display: flex;
-    background-color: var(--dark-blue);
+    background-color: var(--light-blue);
     justify-content: flex-end;
     position: sticky;
     top: 0;
 }
 
-.header img,
-.header a {
+.header img{
+    height: 70px;
     width: auto;
-    margin-right: auto;
 }
 
-.header img{
-    height: 50px;
-    padding: 15px 25px;
+#logo {
+    margin-right: auto;
+    margin-left: 35px;
 }
 
 .links {
@@ -92,7 +91,7 @@ body{
 .links button{
     padding: 5px 12px;
     color: var(--white);
-    background-color: var(--dark-blue);
+    background-color: var(--light-blue);
     font-size: 1.5rem;
     height: 100%;
     border: 0;
