@@ -182,6 +182,14 @@ body{
     bottom: 230px;
 }
 
+.why-ipm a {
+    font-style: italic;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--navy);
+    font-weight: bold;
+}
+
 .what-we-offer {
     display: flex;
     flex-direction: column;
