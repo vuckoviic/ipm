@@ -160,6 +160,9 @@ body{
 .why-ipm {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     background-color: var(--beige);
     padding: 20px;
     gap: 15px;
@@ -182,12 +185,25 @@ body{
     bottom: 230px;
 }
 
-.why-ipm a {
+.why-ipm button {
     font-style: italic;
     font-size: 1.3rem;
+    height: 50px;
+    width: auto;
     text-decoration: none;
     color: var(--navy);
+    background-color: var(--beige);
+    border-radius: 50px;
     font-weight: bold;
+    cursor: pointer;
+    border: 2px solid var(--navy);
+    transition: 0.5s;
+}
+
+.why-ipm button:hover {
+    background-color: var(--navy);
+    color: var(--beige);
+    transition: 0.5s;
 }
 
 .what-we-offer {
