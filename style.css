@@ -59,6 +59,7 @@ body{
     flex-direction: column;
     max-width: 100vw;
     font-family: 'Source Code Pro';
+    background-color: var(--green);
 }
 
 .header{
@@ -252,4 +253,25 @@ body{
     justify-content: center;
     align-items: center;
     gap: 20px
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 1.2rem;
+    gap: 8px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer img {
+    height: 40px;
+    width: auto;
 }
