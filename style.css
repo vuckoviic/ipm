@@ -275,3 +275,18 @@ footer img {
     height: 40px;
     width: auto;
 }
+
+/*STYLING PORTFOLIO*/
+
+.main-page-portfolio {
+    display: flex;
+    background-color: var(--beige);
+    height: 100vh;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page-portfolio p {
+    display: inline-block;
+}
