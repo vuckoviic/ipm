@@ -96,6 +96,7 @@ body{
     transition: 0.5s;
     background-color: var(--green);
     color: var(--white);
+    border-bottom: 5px solid var(--green);
 }
 
 .links button:hover{
@@ -287,6 +288,17 @@ footer img {
     align-items: center;
 }
 
-.main-page-portfolio p {
-    display: inline-block;
+.photo-edits,
+.video-edits {
+    position: relative;
+}
+
+.photo-edits-text p,
+.video-edits-text p{
+    position: absolute;
+    top: 0;
+}
+
+.links button.active {
+    border-bottom: 5px solid var(--navy);
 }
