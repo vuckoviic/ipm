@@ -293,10 +293,16 @@ footer img {
     position: relative;
 }
 
-.photo-edits-text p,
-.video-edits-text p{
+.photo-edits-text ,
+.video-edits-text {
     position: absolute;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 4rem;
 }
 
 .links button.active {
