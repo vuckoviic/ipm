@@ -293,18 +293,28 @@ footer img {
     position: relative;
 }
 
+.photo-edits img,
+.video-edits img{
+    opacity: 0.2;
+}
+
 .photo-edits-text ,
 .video-edits-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--white);
+    color: rgb(180, 66, 0);
     font-weight: bold;
-    font-style: italic;
     font-size: 4rem;
+    text-align: center;
 }
 
 .links button.active {
     border-bottom: 5px solid var(--navy);
+}
+
+.photo-edits img:hover,
+.video-edits img:hover {
+    opacity: 1;
 }
