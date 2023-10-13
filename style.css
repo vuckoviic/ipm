@@ -291,11 +291,15 @@ footer img {
 .photo-edits,
 .video-edits {
     position: relative;
+    overflow: hidden;
 }
 
 .photo-edits img,
 .video-edits img{
-    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(0%);
+    transition: 0.5s ease;
 }
 
 .photo-edits-text ,
@@ -304,7 +308,7 @@ footer img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(180, 66, 0);
+    color: white;
     font-weight: bold;
     font-size: 4rem;
     text-align: center;
@@ -316,5 +320,6 @@ footer img {
 
 .photo-edits img:hover,
 .video-edits img:hover {
-    opacity: 1;
+    transform: scale(1.3);
+    filter: grayscale(100%);
 }
