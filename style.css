@@ -286,11 +286,11 @@ footer img {
     gap: 50px;
     justify-content: center;
     align-items: center;
+    font-family: 'Source Code Pro';
 }
 
-.photo-edits,
-.video-edits {
-    position: relative;
+.photo-edits-img,
+.video-edits-img {
     overflow: hidden;
 }
 
@@ -298,28 +298,23 @@ footer img {
 .video-edits img{
     width: 100%;
     height: 100%;
-    filter: grayscale(0%);
+    filter: grayscale(100%);
     transition: 0.5s ease;
 }
 
 .photo-edits-text ,
 .video-edits-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
     font-weight: bold;
     font-size: 4rem;
-    text-align: center;
 }
 
 .links button.active {
     border-bottom: 5px solid var(--navy);
 }
 
-.photo-edits img:hover,
-.video-edits img:hover {
+.photo-edits-img img:hover,
+.video-edits-img img:hover {
     transform: scale(1.3);
-    filter: grayscale(100%);
+    filter: grayscale(0%);
 }
