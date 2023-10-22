@@ -234,13 +234,13 @@ body{
 .offers img {
     height: 120px;
     width: auto;
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
 
 .offers img:hover {
     height: 140px;
     width: auto;
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
 
 .offers p {
@@ -322,12 +322,13 @@ footer img {
     filter: grayscale(0%);
 }
 
-/*ABOUT PAGE*/
+/*-----------------ABOUT PAGE--------------------*/
 
 .main-page-about {
     display: flex;
     flex-direction: column;
     background-color: var(--navy);
+    padding: 25px;
 }
 
 .about-text-and-image {
@@ -360,7 +361,6 @@ footer img {
 .about-img img{
     height: 60vh;
     margin-top: 5vh;
-    margin-right: 5vh;
     border-radius: 15% 0 25% 0;
 }
 
