@@ -394,3 +394,68 @@ footer img {
     transition: 0.5s;
     border: 0;
 }
+
+/*-------------CONTACT PAGE-------------*/
+
+.main-page-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    gap: 50px;
+    height: 60vh;
+}
+
+.main-page-contact h1 {
+    position: absolute;
+    top: 110px;
+    text-align: center;
+    color: var(--green);
+    font-size: 3em;
+}
+
+.main-page-contact p {
+    text-align: center;
+    color: var(--white);
+    font-size: 1.5em;
+}
+
+.main-page-contact img {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-email,
+.contact-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navy);
+    height: 30vh;
+    width: 30vw;
+}
+
+.main-page-contact a {
+    text-decoration: none;
+    color: var(--green);
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 2vh;
+}
+
+.contact-social-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.contact-social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vh;
+}
