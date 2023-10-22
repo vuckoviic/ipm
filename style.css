@@ -436,6 +436,14 @@ footer img {
     background-color: var(--navy);
     height: 30vh;
     width: 30vw;
+    border-radius: 25% 0 25% 0;
+    transition: 0.5s;
+}
+
+.contact-email:hover,
+.contact-social:hover {
+    transition: 0.5s;
+    border-radius: 0 25% 0 25%;
 }
 
 .main-page-contact a {
