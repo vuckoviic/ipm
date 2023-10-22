@@ -66,7 +66,7 @@ body{
     display: flex;
     justify-content: flex-end;
     position: sticky;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     background-color: var(--green);
 }
@@ -277,7 +277,7 @@ footer img {
     width: auto;
 }
 
-/*STYLING PORTFOLIO*/
+/*---------------STYLING PORTFOLIO-------------*/
 
 .main-page-portfolio {
     display: flex;
@@ -292,6 +292,7 @@ footer img {
 
 .photo-edits-img,
 .video-edits-img {
+    position: relative;
     overflow: hidden;
 }
 
@@ -305,6 +306,10 @@ footer img {
 
 .photo-edits-text ,
 .video-edits-text {
+    padding: 10px;
+    font-style: italic;
+    position: absolute;
+    z-index: 1;
     display: flex;
     justify-content: center;
     color: var(--navy);
