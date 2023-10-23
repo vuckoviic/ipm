@@ -378,7 +378,6 @@ footer img {
     align-items: center;
     background-color: var(--white);
     padding: 50px;
-    width: 100%;
 }
 
 .ready-to-start {
@@ -431,6 +430,7 @@ footer img {
     background-color: var(--white);
     color: var(--navy);
 }
+
 
 /*-------------CONTACT PAGE-------------*/
 
