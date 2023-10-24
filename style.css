@@ -57,9 +57,10 @@ table {
 body{
     display: flex;
     flex-direction: column;
-    max-width: 100vw;
+    min-width: 100vw;
     font-family: 'Source Code Pro';
     background-color: var(--green);
+    transition: opacity 0.5s ease;
 }
 
 .header{
@@ -72,7 +73,7 @@ body{
 }
 
 .header img{
-    height: 70px;
+    height: max(70px);
     width: auto;
 }
 
@@ -85,12 +86,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 25px;
+    padding-right: min(25px);
 }
 
 .links button{
-    padding: 5px 12px;
-    font-size: 1.5rem;
+    padding: min(5px 12px);
+    font-size: max(1.5rem);
     height: 100%;
     border: 0;
     transition: 0.5s;
@@ -117,7 +118,7 @@ body{
 }
 
 .main-page h1 {
-    font-size: 10rem;
+    font-size: clamp(2rem, 10rem, 11rem);
     color: var(--navy);
 }
 
@@ -125,6 +126,13 @@ body{
     font-style: italic;
     font-size: 2rem;
     color: var(--navy);
+}
+
+/*MEDIA QUERY TEST*/
+@media (max-width: 600px){
+    .main-page h1 {
+        font-size: 5rem;
+    }
 }
 
 .why-marketing {
