@@ -57,7 +57,7 @@ table {
 body{
     display: flex;
     flex-direction: column;
-    min-width: 100vw;
+    /* min-width: 100vw; */
     font-family: 'Source Code Pro';
     background-color: var(--green);
     transition: opacity 0.5s ease;
@@ -70,6 +70,7 @@ body{
     z-index: 2;
     top: 0;
     background-color: var(--green);
+    max-width: 100%;
 }
 
 .header img{
@@ -86,7 +87,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: min(25px);
 }
 
 .links button{
@@ -157,7 +157,7 @@ body{
 }
 
 .why-marketing img {
-    max-width: 400px;
+    max-width: 320px;
 }
 
 .why-ipm {
@@ -183,9 +183,16 @@ body{
 .why-ipm img {
     height: 80px;
     width: 80px;
-    margin-left: auto;
     position: relative;
-    bottom: 230px;
+    z-index: 0;
+}
+
+.why-ipm-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 5vh;
 }
 
 .why-ipm button {
