@@ -128,13 +128,6 @@ body{
     color: var(--navy);
 }
 
-/*MEDIA QUERY TEST*/
-@media (max-width: 600px){
-    .main-page h1 {
-        font-size: 5rem;
-    }
-}
-
 .why-marketing {
     display: flex;
     flex-direction: column;
@@ -164,7 +157,7 @@ body{
 }
 
 .why-marketing img {
-    height: 400px;
+    max-width: 400px;
 }
 
 .why-ipm {
@@ -222,7 +215,8 @@ body{
     background-color: var(--navy);
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    min-height: 50vh;
+    padding: 2vh;
 }
 
 .what-we-offer h2 {
@@ -235,8 +229,8 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    gap: 50px;
+    margin-top: min(50px);
+    gap: max(50px);
 }
 
 .offers img {
@@ -513,4 +507,14 @@ footer img {
     flex-direction: row;
     justify-content: center;
     gap: 2vh;
+}
+
+/*MEDIA QUERY TEST*/
+@media (max-width: 600px){
+    .main-page h1 {
+        font-size: 5rem;
+    }
+    .offers {
+        flex-direction: column;
+    }
 }
