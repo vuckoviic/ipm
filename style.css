@@ -119,6 +119,7 @@ body{
 
 .main-page h1 {
     font-size: clamp(2rem, 10rem, 11rem);
+    text-align: center;
     color: var(--navy);
 }
 
@@ -126,6 +127,7 @@ body{
     font-style: italic;
     font-size: 2rem;
     color: var(--navy);
+    text-align: center;
 }
 
 .why-marketing {
@@ -227,6 +229,7 @@ body{
 }
 
 .what-we-offer h2 {
+    text-align: center;
     color: var(--white);
     font-size: 3rem;
 }
@@ -266,6 +269,7 @@ body{
 }
 
 footer {
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
