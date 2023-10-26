@@ -48,10 +48,10 @@ table {
 }
 
 :root{
-    --green: #445D48;
-    --navy: #001524;
-    --beige: #D6CC99;
-    --white: #FDE5D4;
+    --green: #006d24;
+    --white: #FFFFFF;
+    --grey: #36454F;
+    --black: #000000;
 }
 
 body{
@@ -59,7 +59,7 @@ body{
     flex-direction: column;
     /* min-width: 100vw; */
     font-family: 'Open Sans';
-    background-color: var(--green);
+    background-color: var(--white);
     transition: opacity 0.5s ease;
 }
 
@@ -69,7 +69,7 @@ body{
     position: sticky;
     z-index: 2;
     top: 0;
-    background-color: var(--green);
+    background-color: var(--white);
     max-width: 100%;
 }
 
@@ -87,7 +87,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    margin-right: 1vh;
 }
 
 .links button{
@@ -96,39 +96,48 @@ body{
     height: 100%;
     border: 0;
     transition: 0.5s;
-    background-color: var(--green);
-    color: var(--white);
-    border-bottom: 5px solid var(--green);
+    background-color: var(--white);
+    color: var(--green);
 }
 
 .links button:hover{
     cursor: pointer;
     transition: 0.5s;
-    color: var(--navy);
+    font-weight: bold;
 }
 
 .main-page {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 70vh;
     margin-top: 0;
-    gap: 35px;
-    background-color: var(--beige);
+    background-color: var(--white);
+}
+
+.main-page-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5vh;
+    margin-right: auto;
+    padding: 4vh;
+}
+
+.main-page img {
+    padding: 4vh;
 }
 
 .main-page h1 {
     font-size: clamp(2rem, 10rem, 11rem);
-    text-align: center;
-    color: var(--navy);
+    color: var(--green);
 }
 
 .main-page p {
     font-style: italic;
     font-size: 2rem;
-    color: var(--navy);
-    text-align: center;
+    color: var(--green);
 }
 
 .why-marketing {
@@ -136,7 +145,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--navy);
+    background-color: var(--white);
     padding: 20px;
     text-align: center;
     gap: 20px;
@@ -147,7 +156,7 @@ body{
     font-size: 2.5rem;
     font-style: italic;
     font-weight: bold;
-    color: var(--beige);
+    color: var(--green);
     margin-top: 25px;
 }
 
@@ -155,7 +164,7 @@ body{
 .why-ipm li {
     font-size: 1.9rem;
     text-wrap: wrap;
-    color: var(--white);
+    color: var(--green);
     line-height: 50px;
 }
 
@@ -169,18 +178,18 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: var(--beige);
+    background-color: var(--grey);
     padding: 20px;
     gap: 15px;
 }
 
 .why-ipm h2 {
-    color: var(--navy);
+    color: var(--black);
     font-size: 2.7rem;
 }
 
 .why-ipm li {
-    color: var(--navy);
+    color: var(--white);
 }
 
 .why-ipm img {
@@ -204,25 +213,25 @@ body{
     height: 50px;
     width: auto;
     text-decoration: none;
-    color: var(--navy);
-    background-color: var(--beige);
+    color: var(--white);
+    background-color: var(--grey);
     border-radius: 50px;
     font-weight: bold;
     cursor: pointer;
-    border: 2px solid var(--navy);
+    border: 2px solid var(--white);
     transition: 0.5s;
 }
 
 .why-ipm button:hover {
-    background-color: var(--navy);
-    color: var(--beige);
+    background-color: var(--white);
+    color: var(--grey);
     transition: 0.5s;
 }
 
 .what-we-offer {
     display: flex;
     flex-direction: column;
-    background-color: var(--navy);
+    background-color: var(--white);
     justify-content: center;
     align-items: center;
     min-height: 50vh;
@@ -231,7 +240,7 @@ body{
 
 .what-we-offer h2 {
     text-align: center;
-    color: var(--white);
+    color: var(--green);
     font-size: 3rem;
 }
 
@@ -257,7 +266,7 @@ body{
 }
 
 .offers p {
-    color: var(--white);
+    color: var(--green);
     font-size: 1.5rem;
 }
 
@@ -275,8 +284,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--green);
-    color: var(--white);
+    background-color: var(--red);
+    color: var(--black);
     font-size: 1.2rem;
     gap: 8px;
     padding: 5px;
@@ -284,7 +293,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--black);
 }
 
 footer img {
@@ -296,7 +305,7 @@ footer img {
 
 .main-page-portfolio {
     display: flex;
-    background-color: var(--beige);
+    background-color: var(--black);
     height: 100vh;
     gap: 50px;
     justify-content: center;
@@ -326,13 +335,13 @@ footer img {
     z-index: 1;
     display: flex;
     justify-content: center;
-    color: var(--navy);
+    color: var(--black);
     font-size: 3rem;
     margin-bottom: 8px;
 }
 
 .links button.active {
-    border-bottom: 5px solid var(--navy);
+    border-bottom: 5px solid var(--black);
 }
 
 .photo-edits-img img:hover,
@@ -346,7 +355,7 @@ footer img {
 .main-page-about {
     display: flex;
     flex-direction: column;
-    background-color: var(--navy);
+    background-color: var(--black);
     padding: 25px;
 }
 
@@ -355,13 +364,13 @@ footer img {
 }
 
 .main-page-about h3{
-    color: var(--beige);
+    color: var(--black);
     font-size: 2.2em;
     font-style: italic;
 }
 
 .main-page-about p{
-    color: var(--white);
+    color: var(--black);
     font-size: 1.5em;
 }
 
@@ -373,7 +382,7 @@ footer img {
 }
 
 .main-page-about li {
-    color: var(--white);
+    color: var(--black);
     font-size: 1.5em;
     list-style-type: circle;
     padding: 5px;
@@ -389,12 +398,12 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--white);
+    background-color: var(--black);
     padding: 50px;
 }
 
 .ready-to-start {
-    background-color: var(--navy);
+    background-color: var(--black);
     border-radius: 25px;
     display: flex;
     height: 10vh;
@@ -403,14 +412,14 @@ footer img {
 }
 
 .ready-to-start h3{
-    color: var(--white);
+    color: var(--black);
     font-size: 1.5em;
     font-weight: bold;
     font-style: normal;
 }
 
 .ready-to-start p{
-    color: var(--white);
+    color: var(--black);
     font-size: 1.2em;
 }
 
@@ -426,22 +435,22 @@ footer img {
 }
 
 .contact-us-button button{
-    background-color: var(--navy);
-    color: var(--white);
+    background-color: var(--black);
+    color: var(--black);
     font-size: 1.5em;
     height: 70px;
     width: 200px;
     border-radius: 25px;
     transition: 0.5s;
-    border: 2px solid var(--white);
+    border: 2px solid var(--black);
 }
 
 .contact-us-button button:hover{
     cursor: pointer;
     transition: 0.5s;
-    border: 2px solid var(--navy);
-    background-color: var(--white);
-    color: var(--navy);
+    border: 2px solid var(--black);
+    background-color: var(--black);
+    color: var(--black);
 }
 
 
@@ -451,7 +460,7 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--white);
+    background-color: var(--black);
     gap: 50px;
     height: 60vh;
 }
@@ -460,13 +469,13 @@ footer img {
     position: absolute;
     top: 110px;
     text-align: center;
-    color: var(--green);
+    color: var(--red);
     font-size: 3em;
 }
 
 .main-page-contact p {
     text-align: center;
-    color: var(--white);
+    color: var(--black);
     font-size: 1.5em;
 }
 
@@ -483,7 +492,7 @@ footer img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--navy);
+    background-color: var(--black);
     height: 30vh;
     width: 30vw;
     border-radius: 25% 0 25% 0;
@@ -500,7 +509,7 @@ footer img {
 
 .main-page-contact a {
     text-decoration: none;
-    color: var(--green);
+    color: var(--red);
     font-weight: bold;
     font-size: 1.2em;
     margin-top: 2vh;
