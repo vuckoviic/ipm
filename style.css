@@ -58,7 +58,7 @@ body{
     display: flex;
     flex-direction: column;
     /* min-width: 100vw; */
-    font-family: 'Source Code Pro';
+    font-family: 'Open Sans';
     background-color: var(--green);
     transition: opacity 0.5s ease;
 }
@@ -247,13 +247,13 @@ body{
 .offers img {
     height: 120px;
     width: auto;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 }
 
 .offers img:hover {
     height: 140px;
     width: auto;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 }
 
 .offers p {
@@ -301,7 +301,6 @@ footer img {
     gap: 50px;
     justify-content: center;
     align-items: center;
-    font-family: 'Source Code Pro';
 
 }
 
