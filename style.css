@@ -319,20 +319,27 @@ footer img {
 /*---------------STYLING PORTFOLIO-------------*/
 
 .main-page-portfolio {
-    font-family: 'Open Sans';
+    position: relative;
     display: flex;
-    background-color: var(--black);
+    background-color: var(--green);
     height: 100vh;
     gap: 50px;
     justify-content: center;
     align-items: center;
+}
 
+.main-page-portfolio h2 {
+    position: absolute;
+    top: 2vh;
+    font-size: 2em;
+    color: var(--black);
 }
 
 .photo-edits-img,
 .video-edits-img {
     position: relative;
     overflow: hidden;
+    border-radius: 5%;
 }
 
 .photo-edits img,
@@ -351,7 +358,8 @@ footer img {
     z-index: 1;
     display: flex;
     justify-content: center;
-    color: var(--black);
+    color: var(--green);
+    font-weight: bold;
     font-size: 3rem;
     margin-bottom: 8px;
 }
