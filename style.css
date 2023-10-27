@@ -319,6 +319,7 @@ footer img {
 /*---------------STYLING PORTFOLIO-------------*/
 
 .main-page-portfolio {
+    font-family: 'Open Sans';
     display: flex;
     background-color: var(--black);
     height: 100vh;
