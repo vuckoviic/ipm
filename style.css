@@ -193,7 +193,6 @@ body{
     justify-content: center;
     text-align: center;
     background-color: var(--grey);
-    padding: 20px;
     gap: 15px;
 }
 
@@ -248,8 +247,7 @@ body{
     background-color: var(--grey);
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
-    padding: 2vh;
+    min-height: 40vh;
 }
 
 .what-we-offer h2 {
