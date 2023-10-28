@@ -71,6 +71,7 @@ body{
     top: 0;
     background-color: var(--white);
     max-width: 100%;
+    border-bottom: 1px solid var(--green);
 }
 
 .header img{
@@ -95,15 +96,13 @@ body{
     font-size: max(1.5rem);
     height: 100%;
     border: 0;
-    transition: 0.5s;
     background-color: var(--white);
     color: var(--green);
 }
 
 .links button:hover{
     cursor: pointer;
-    transition: 0.5s;
-    font-weight: bold;
+    font-style: italic;
 }
 
 .main-page {
@@ -302,6 +301,7 @@ footer {
     gap: 8px;
     padding: 5px;
     font-weight: bold;
+    border-top: 1px solid var(--green);
 }
 
 footer a {
@@ -363,7 +363,7 @@ footer img {
 }
 
 .links button.active {
-    border-bottom: 5px solid var(--black);
+    font-style: italic;
 }
 
 .photo-edits-img img:hover,
@@ -482,22 +482,22 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--black);
+    background-color: var(--white);
     gap: 50px;
-    height: 60vh;
+    min-height: 80vh;
 }
 
 .main-page-contact h1 {
     position: absolute;
     top: 110px;
     text-align: center;
-    color: var(--red);
+    color: var(--green);
     font-size: 3em;
 }
 
 .main-page-contact p {
     text-align: center;
-    color: var(--black);
+    color: var(--white);
     font-size: 1.5em;
 }
 
@@ -514,7 +514,7 @@ footer img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--black);
+    background-color: var(--grey);
     height: 30vh;
     width: 30vw;
     border-radius: 25% 0 25% 0;
@@ -531,7 +531,7 @@ footer img {
 
 .main-page-contact a {
     text-decoration: none;
-    color: var(--red);
+    color: var(--white);
     font-weight: bold;
     font-size: 1.2em;
     margin-top: 2vh;
