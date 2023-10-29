@@ -383,7 +383,24 @@ footer img {
 
 .about-text {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    gap: max(15px);
+}
+
+.about-text-p-img {
+    display: flex;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text a{
+    text-decoration: none;
+    font-style: italic;
 }
 
 .main-page-about h3 {
@@ -405,12 +422,12 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--black);
+    background-color: var(--grey);
     padding: 50px;
 }
 
 .ready-to-start {
-    background-color: var(--grey);
+    background-color: var(--green);
     border-radius: 25px;
     display: flex;
     height: 10vh;
@@ -439,6 +456,8 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    padding: max(15px);
 }
 
 .contact-us-button button{
