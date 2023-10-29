@@ -377,43 +377,23 @@ footer img {
 .main-page-about {
     display: flex;
     flex-direction: column;
-    background-color: var(--black);
+    background-color: var(--white);
     padding: 25px;
 }
 
-.about-text-and-image {
-    display: flex;
-}
-
-.main-page-about h3{
-    color: var(--black);
-    font-size: 2.2em;
-    font-style: italic;
-}
-
-.main-page-about p{
-    color: var(--black);
-    font-size: 1.5em;
-}
-
-.about-text-all {
+.about-text {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    margin-top: 5vh;
 }
 
-.main-page-about li {
+.about-text h3 {
+    color: var(--green);
+    font-size: 2em;
+}
+
+.about-text p {
     color: var(--black);
-    font-size: 1.5em;
-    list-style-type: circle;
-    padding: 5px;
-}
-
-.about-img img{
-    height: 60vh;
-    margin-top: 5vh;
-    border-radius: 15% 0 25% 0;
+    font-size: 1.4em;
 }
 
 .about-contact {
@@ -425,7 +405,7 @@ footer img {
 }
 
 .ready-to-start {
-    background-color: var(--black);
+    background-color: var(--grey);
     border-radius: 25px;
     display: flex;
     height: 10vh;
@@ -434,14 +414,14 @@ footer img {
 }
 
 .ready-to-start h3{
-    color: var(--black);
+    color: var(--white);
     font-size: 1.5em;
     font-weight: bold;
     font-style: normal;
 }
 
 .ready-to-start p{
-    color: var(--black);
+    color: var(--white);
     font-size: 1.2em;
 }
 
@@ -457,22 +437,22 @@ footer img {
 }
 
 .contact-us-button button{
-    background-color: var(--black);
+    background-color: var(--white);
     color: var(--black);
     font-size: 1.5em;
     height: 70px;
     width: 200px;
     border-radius: 25px;
     transition: 0.5s;
-    border: 2px solid var(--black);
+    border: 2px solid var(--white);
 }
 
 .contact-us-button button:hover{
     cursor: pointer;
     transition: 0.5s;
-    border: 2px solid var(--black);
+    border: 2px solid var(--white);
     background-color: var(--black);
-    color: var(--black);
+    color: var(--white);
 }
 
 
