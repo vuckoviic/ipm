@@ -383,10 +383,10 @@ footer img {
 
 .about-text {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.about-text h3 {
+.main-page-about h3 {
     color: var(--green);
     font-size: 2em;
 }
@@ -394,6 +394,11 @@ footer img {
 .about-text p {
     color: var(--black);
     font-size: 1.4em;
+}
+
+.about-text img {
+    height: 200px;
+    width: 200px;
 }
 
 .about-contact {
