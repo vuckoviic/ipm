@@ -393,10 +393,15 @@ footer img {
     display: flex;
 }
 
-#center {
+.center {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#today {
+    text-align: center;
 }
 
 .about-text a{
@@ -419,7 +424,7 @@ footer img {
     width: auto;
 }
 
-.about-contact {
+.contact-now{
     display: flex;
     justify-content: center;
     align-items: center;
