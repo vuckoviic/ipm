@@ -139,6 +139,45 @@ body{
     color: var(--green);
 }
 
+.who-we-are {
+    display: flex;
+    flex-direction: column;
+    gap: max(20px);
+}
+
+.who-we-are-down {
+    display: flex;
+}
+
+.who-we-are img{
+    height: 30vh;
+}
+
+.who-we-are h2{
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: bold;
+    color: var(--green);
+    margin-top: 25px;
+    text-align: center;
+}
+
+.who-we-are p {
+    color: var(--grey);
+    font-size: 1.5em;
+}
+
+.who-we-are a {
+    color: var(--grey);
+    font-style: italic;
+}
+ 
+.who-we-are a:hover {
+    color: var(--green);
+    font-style: normal;
+    text-decoration: none;
+}
+
 .why-marketing {
     display: flex;
     flex-direction: column;
@@ -152,7 +191,6 @@ body{
 
 .why-marketing h2,
 .why-ipm h2{
-    top: 0;
     font-size: 2.5rem;
     font-style: italic;
     font-weight: bold;
