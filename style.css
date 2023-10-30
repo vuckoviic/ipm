@@ -379,6 +379,7 @@ footer img {
     flex-direction: column;
     background-color: var(--white);
     padding: 25px;
+    gap: 5vh;
 }
 
 .about-text {
