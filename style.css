@@ -164,7 +164,7 @@ body{
 
 .who-we-are p {
     color: var(--grey);
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .who-we-are a {
@@ -185,7 +185,6 @@ body{
     align-items: center;
     background-color: var(--white);
     padding: 20px;
-    text-align: right;
     gap: 20px;
 }
 
@@ -255,27 +254,6 @@ body{
     align-items: center;
     min-width: 100%;
     min-height: 5vh;
-}
-
-.why-ipm button {
-    font-style: italic;
-    font-size: 1.3rem;
-    height: 50px;
-    width: auto;
-    text-decoration: none;
-    color: var(--white);
-    background-color: var(--grey);
-    border-radius: 50px;
-    font-weight: bold;
-    cursor: pointer;
-    border: 2px solid var(--white);
-    transition: 0.5s;
-}
-
-.why-ipm button:hover {
-    background-color: var(--white);
-    color: var(--grey);
-    transition: 0.5s;
 }
 
 .what-we-offer {
