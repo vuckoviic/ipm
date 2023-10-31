@@ -395,7 +395,7 @@ footer img {
     flex-direction: column;
     background-color: var(--white);
     padding: 25px;
-    gap: 5vh;
+    gap: 1vh;
 }
 
 .about-text {
@@ -432,12 +432,12 @@ footer img {
 
 .about-text p {
     color: var(--black);
-    font-size: 1.4em;
+    font-size: 2em;
+    width: 40vw;
 }
 
 .about-text img {
-    height: 200px;
-    width: auto;
+    width: 20vw;
 }
 
 .contact-now{
