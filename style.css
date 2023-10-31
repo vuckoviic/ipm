@@ -440,6 +440,11 @@ footer img {
     width: 20vw;
 }
 
+#expansion {
+    height: 20vh;
+    width: auto;
+}
+
 .contact-now{
     display: flex;
     justify-content: center;
