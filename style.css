@@ -570,6 +570,7 @@ footer img {
 }
 
 .main-page-contact p {
+    position: relative;
     text-align: center;
     color: var(--white);
     font-size: 1.5em;
@@ -582,18 +583,28 @@ footer img {
     margin-right: auto;
 }
 
+.contact-email {
+    background-image: url('images/email-contact.jpg');
+}
+
+.contact-social {
+    background-image: url('images/social-contact.jpg');
+}
+
 .contact-email,
 .contact-social {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--grey);
+    /* background-color: var(--grey); */
+    background-size: 100%;
     height: 30vh;
     width: 30vw;
     border-radius: 25% 0 25% 0;
     transition: 0.5s;
     box-shadow: 5px 10px;
+    opacity: 0.5;
 }
 
 .contact-email:hover,
