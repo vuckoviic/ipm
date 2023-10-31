@@ -385,17 +385,10 @@ footer img {
     position: relative;
     display: flex;
     background-color: var(--white);
-    height: 100vh;
+    height: 83vh;
     gap: 50px;
     justify-content: center;
     align-items: center;
-}
-
-.main-page-portfolio h2 {
-    position: absolute;
-    top: 2vh;
-    font-size: 2em;
-    color: var(--black);
 }
 
 .photo-edits-img,
