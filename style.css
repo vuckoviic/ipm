@@ -604,7 +604,12 @@ footer img {
     border-radius: 25% 0 25% 0;
     transition: 0.5s;
     box-shadow: 5px 10px;
-    background: rgba(red, green, blue, alpha);
+    opacity: 0.5;
+}
+
+.contact-email p,
+.contact-social p {
+    opacity: 1;
 }
 
 .contact-email:hover,
