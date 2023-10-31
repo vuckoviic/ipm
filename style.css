@@ -103,6 +103,7 @@ body{
 .links button:hover{
     cursor: pointer;
     font-style: italic;
+    border-bottom: 3px solid rgb(1, 165, 1);
 }
 
 .main-page {
@@ -421,7 +422,7 @@ footer img {
 }
 
 .links button.active {
-    font-style: italic;
+    border-bottom: 3px solid var(--green);
 }
 
 .photo-edits-img img:hover,
