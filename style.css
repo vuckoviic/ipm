@@ -181,7 +181,7 @@ body{
 
 .why-marketing {
     position: relative;
-    top: -200px;
+    top: -100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,7 +189,7 @@ body{
     background-color: var(--white);
     gap: 20px;
     z-index: -1;
-    margin-bottom: -200px;
+    margin-bottom: -100px;
 }
 
 .why-marketing h2,
