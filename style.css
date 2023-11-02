@@ -587,7 +587,13 @@ footer img {
 }
 
 .main-page-contact img {
-    height: 50px;
+    height: min(50px);
+    width: min(50px);
+}
+
+#contact-email-img {
+    height: min(50px);
+    width: min(65px);
 }
 
 .contact-email,
@@ -628,6 +634,11 @@ footer img {
     position: absolute;
     z-index: 2;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
 }
 
 .main-page-contact a {
@@ -635,7 +646,6 @@ footer img {
     color: var(--grey);
     font-weight: bold;
     font-size: 1.2em;
-    margin-top: 2vh;
 }
 
 .contact-social-images {
