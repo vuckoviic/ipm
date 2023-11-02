@@ -441,7 +441,7 @@ footer img {
     color: var(--green);
 }
 
-/*-----------------ABOUT PAGE--------------------*/
+/*-----------------STYLING ABOUT PAGE--------------------*/
 
 .main-page-about {
     display: flex;
@@ -485,7 +485,7 @@ footer img {
 
 .about-text p {
     color: var(--black);
-    font-size: 2em;
+    font-size: 1.5em;
     width: 40vw;
 }
 
