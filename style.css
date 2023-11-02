@@ -578,9 +578,6 @@ footer img {
 
 .main-page-contact img {
     height: 50px;
-    margin-bottom: 7px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .contact-email,
@@ -607,9 +604,8 @@ footer img {
     height: 100%;
     background-image: url('images/email-contact.jpg');
     background-size: 100%;
-    background-color: var(--green);
     border-radius: 25% 0 25% 0;
-    opacity: 0.5; /* Adjust the opacity as needed */
+    opacity: 0.3;
     z-index: 1;
 }
 
@@ -619,9 +615,9 @@ footer img {
 
 .contact-email-text,
 .contact-social-text {
-    position: absolute; /* or absolute if needed */
+    position: absolute;
     z-index: 2;
-    text-align: center; /* Center the text within the div */
+    text-align: center;
 }
 
 .main-page-contact a {
