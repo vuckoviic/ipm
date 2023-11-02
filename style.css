@@ -598,7 +598,8 @@ footer img {
     box-shadow: 5px 10px;
 }
 
-.contact-email-background {
+.contact-email-background,
+.contact-social-background {
     position: absolute;
     top: 0;
     left: 0;
@@ -612,17 +613,15 @@ footer img {
     z-index: 1;
 }
 
-.contact-email-text {
+.contact-social-background {
+    background-image: url(images/social-contact.jpg);
+}
+
+.contact-email-text,
+.contact-social-text {
     position: absolute; /* or absolute if needed */
     z-index: 2;
     text-align: center; /* Center the text within the div */
-}
-
-.contact-email:hover,
-.contact-social:hover {
-    transition: 0.5s;
-    border-radius: 0 25% 0 25%;
-    box-shadow: 10px 5px;
 }
 
 .main-page-contact a {
