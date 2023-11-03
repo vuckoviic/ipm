@@ -392,7 +392,6 @@ footer img {
 /*---------------STYLING PORTFOLIO-------------*/
 
 .main-page-portfolio {
-    position: relative;
     display: flex;
     background-color: var(--white);
     height: 83vh;
@@ -401,45 +400,62 @@ footer img {
     align-items: center;
 }
 
-.photo-edits-img,
-.video-edits-img {
+.photo-edits,
+.video-edits {
     position: relative;
-    overflow: hidden;
-    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    height: 700px;
+    width: 450px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 20px 4px rgb(0, 59, 0);
 }
 
+
 .photo-edits img,
-.video-edits img{
+.video-edits img {
+    object-fit: cover;
+    min-height: 100%;
+    width: 100%;
+}
+
+.photo-edits-background,
+.video-edits-background {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    filter: grayscale(100%);
-    transition: 0.5s ease;
+    background-image: url('images/photo-editing.jpeg');
+    background-size: auto 100%;
+    min-height: 100%;
+    opacity: 0.35;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.video-edits-background {
+    background-image: url('images/video-editing.jpeg');
 }
 
 .photo-edits-text ,
 .video-edits-text {
-    padding: 10px;
-    font-style: italic;
     position: absolute;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    color: var(--grey);
+    z-index: 2;
+    text-align: center;
+    font-size: 2em;
+    color: var(--green);
     font-weight: bold;
-    font-size: 3rem;
-    margin-bottom: 8px;
+    font-style: italic;
 }
 
 .links button.active {
     border-bottom: 3px solid var(--green);
 }
 
-.photo-edits-img img:hover,
-.video-edits-img img:hover {
-    transform: scale(1.3);
-    filter: grayscale(0%);
-    color: var(--green);
-}
 
 /*-----------------STYLING ABOUT PAGE--------------------*/
 
@@ -628,7 +644,7 @@ footer img {
 }
 
 .contact-social-background {
-    background-image: url(images/social-contact.jpg);
+    background-image: url('images/social-contact.jpg');
 }
 
 .contact-email-text,
