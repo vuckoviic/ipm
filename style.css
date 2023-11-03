@@ -476,7 +476,7 @@ footer img {
     background-color: var(--white);
     padding: 25px;
     gap: 1vh;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .about-text {
