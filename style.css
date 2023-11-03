@@ -434,10 +434,20 @@ footer img {
     opacity: 0.35;
     border-radius: 25px;
     z-index: 1;
+    transition: 0.5s;
 }
 
 .video-edits-background {
     background-image: url('images/video-editing.jpeg');
+}
+
+.photo-edits-background:hover,
+.video-edits-background:hover,
+.photo-edits:hover,
+.video-edits:hover {
+    opacity: 1;
+    transition: 0.5s;
+    box-shadow: none;
 }
 
 .photo-edits-text ,
